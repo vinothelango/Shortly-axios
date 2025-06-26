@@ -189,5 +189,8 @@ const Images = styled.div`
     width: 30px;
     height: 30px;
   }
+  @media(max-width:738px){
+    left: 50%;
+  }
 `;
 

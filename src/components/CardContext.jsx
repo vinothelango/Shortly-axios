@@ -116,7 +116,7 @@ const Container = styled.div`
 
   @media (min-width: 768px) {
     
-    
+    flex-direction:row;
     justify-content: center;
     background-image: url(${BgShortDesktop});
   }
@@ -144,6 +144,8 @@ const ShortenBtn = styled.button`
   border: none;
   padding: 14px 24px;
   font-size: .8rem;
+  display: flex;
+  flex-direction: column;
   border-radius: 6px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -158,6 +160,7 @@ const ShortenBtn = styled.button`
     opacity: 0.6;
     cursor: not-allowed;
   }
+ 
 `;
 
 const ResultWrapper = styled.div`

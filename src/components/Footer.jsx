@@ -45,7 +45,7 @@ export default Footer
 const Container=styled.div`
     display: flex;
     justify-content: space-around;
-    background: #1a1616;
+    background: #28212b;
    font-family: 'Poppins', sans-serif;
   font-weight: 500;
    align-items: flex-start;
