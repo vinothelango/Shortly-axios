@@ -107,7 +107,7 @@ const CardItem1 = styled.div`
   text-align: center;
   z-index: 1;
 
-  h3 {
+  h1{
     margin-top: 16px;
     font-size: 1.2rem;
     color: #333;

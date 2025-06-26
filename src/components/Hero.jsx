@@ -21,7 +21,7 @@ const Maincontains=styled.section`
     display: flex;
     flex-direction: row;
     margin: 20px 10px 20px 10px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
      font-family: 'Poppins', sans-serif;
   font-weight: 600;
     /* text-align: center; */
@@ -40,21 +40,22 @@ const Container =styled.div`
     padding:0 20px;
 `
 const Maintext =styled.h1`
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 20px;
-    
+    max-width: 500px;
     align-items: flex-start;
+    justify-items:baseline;
     @media (max-width: 768px) {
     font-size: 2.2rem;
   }`;
 
 const Para =styled.p`
-    font-size: small;
+    /* font-size: small; */
     max-width: 600px;
     margin-bottom: 30px;
-
+    color: gray;
     @media (min-width:738px){
-    font-size: small;
+    /* font-size: small; */
     }
 `;
 const Starts=styled.button`

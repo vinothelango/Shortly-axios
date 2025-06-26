@@ -65,6 +65,7 @@ const Logo = styled.h1`
   font-size: 1.8rem;
   color: #000;
   margin-left: 120px;
+  cursor: pointer;
    @media (max-width: 768px) {
     margin-left: 0;
   }
@@ -96,6 +97,7 @@ const NavArea = styled.div`
 const NavItems = styled.a`
   font-size: 1rem;
   color: #1a1818;
+  font-weight: 400;
   cursor: pointer;
 
   &:hover {
@@ -117,7 +119,7 @@ const Buttons = styled.div`
 
 const LoginBtn = styled.button`
   background: transparent;
-  color: #5b5f63;
+  color: #1a1818;
   padding: 10px;
   border: none;
   font-weight: bold;
